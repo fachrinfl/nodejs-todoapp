@@ -32,7 +32,16 @@ open package.json
 npm test
 ```
 
-Download postman [environment](https://www.dropbox.com/s/4ihumh5yn7i1mgh/Todo%20App%20Heroku.postman_environment.json?dl=0) and [collection](https://www.dropbox.com/s/2wspzhjoj2403my/TodoApp.postman_collection.json?dl=0)
+Download postman [environment](https://www.dropbox.com/s/nj44fmz9bnoltxe/Todo%20App%20Heroku.postman_environment.json?dl=0) and [collection](https://www.dropbox.com/s/2wspzhjoj2403my/TodoApp.postman_collection.json?dl=0)
 
-
-
+```
+register user : POST /users
+login user : POST /users/login
+get list todo : GET /todos
+create todo : POST /todos
+get todo by id : GET /todos/:id
+delete todo by id : DELETE /todos/:id
+update todo by id : PATCH /todos/:id
+get user profile : GET /users/me
+logout user : DELETE /users/me/token
+```
