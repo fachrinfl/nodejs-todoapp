@@ -22,6 +22,7 @@ open package.json
 }
 ```
 - add mongodb database `heroku addons:create mongolab:sandbox`
+- add JWT_SECRET `heroku config:set JWT_SECRET=<input key secret you want>`
 - config your database `heroku config`
 - commit your code
 - deploy your project `git push heroku master`
